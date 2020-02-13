@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+}
+#header {
+	height: 100vh;
+	position: relative;
+	background: url(bg.jpg) no-repeat center/cover;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+a {
+	color: #333333;
+	text-decoration: none;
+}
+.logo {
+	float: left;
+}
+.nav {
+	float: right;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.nav li {
+	display: inline-block;
+	width:175px;
+	text-align: center;
+}
+.nav {
+	margin-top: 75px;
+	margin-right: 150px;
+	
+}
+.nav .top {
+	margin-bottom: 25px;
+	color: gray;
+}
+.nav .bottom li:hover a {
+	color: white;
+}
+.footer {
+	position: absolute;
+	bottom: 20px;
+	left: 50px;
+	right: 50px;
+	text-align: center;
+}
+.footer .left {
+	float: left;
+}
+.footer .right {
+	float: right;
+}
+.footer .left li:first-child, .footer .right li:first-child  {
+	margin: 15px;
+	color: gray;
+}
+.footer .left li:last-child a, .footer .right li:last-child a {
+	margin: 15px;
+	color: white;
+}
+.footer .left li:hover:last-child a, .footer .right li:hover:last-child a {
+	margin: 15px;
+	color: #333;
+}
